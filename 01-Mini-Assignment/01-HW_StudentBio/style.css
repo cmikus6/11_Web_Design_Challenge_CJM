@@ -2,8 +2,8 @@ body {
   background-color: #efeee7;
   font-family: Georgia, 'Times New Roman', Times, serif;
   color: #333333;
-  padding-top: 0px;
-  padding-left: 0px;
+  margin: 0px;
+  margin-top: 0px;
 }
 
 header{
@@ -11,55 +11,61 @@ header{
   top: 0px;
   right: 0px;
 }
-
 h1{
   color: #eee;
   font-size: 28px;
   text-align: center;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
-
 h2{
   font-size: 24px;
-  margin-right: 20px;
-}
+  margin-top: 0px;
+  margin-bottom: 20px;
 
+}
 .container{
   width: 1024px;
   margin: 0 auto;
 }
-
 #main-bio{
   float: left;
 }
-
 #contact-info{
   float: left;
   width: 30%;
   line-height: 36px;
 }
-
 #bio-image{
   float: left;
   width: 200px;
-  top: 36px;
   margin-right: 10px;
   margin-bottom: 10px;
+  margin-top: 65px;
 }
-
 #bio-name{
   position: absolute;
-  top: 155px;
-  left: 28px;
+  top: 230px;
+  left: 24px;
+  color: #eee;
 }
-
 #main-bio{
   width: 70%;
 }
-
 a{
   color: #d21034;
 }
-
+p{
+  margin-right: 20px;
+  margin-bottom: 10px;
+  line-height: 24px;
+}
+#first-p{
+  margin-top: 60px;
+}
 #figure{
   position: relative;
 }
